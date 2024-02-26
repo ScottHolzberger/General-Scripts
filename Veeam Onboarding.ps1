@@ -9,6 +9,7 @@ if ($null -eq (Get-Module -Name MR.ModuleHelper)) {
 else {
     #TODO - Compare current version and update if different
 }
+"Test   ="
 
 Import-Module MR.ModuleHelper
 $SecretID = "emwlOdCbTXU2F5Y9ZRV4"
