@@ -1,0 +1,1 @@
+﻿New-UnifiedGroup -DisplayName "IT Test Create" -Alias "ittestcreate" -Members "00d63a97-a959-4a0b-8c8d-5ffa67ef65a7","88e81ef1-9041-4a7a-97b0-4ade5e96a2ac","d44e6082-23f1-4648-a201-159f4adf7285","39128042-9f4a-42fa-9027-6d63ad685c33" -Owner "00d63a97-a959-4a0b-8c8d-5ffa67ef65a7" -RequireSenderAuthenticationEnabled $false

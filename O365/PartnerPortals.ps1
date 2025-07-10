@@ -1,0 +1,94 @@
+﻿#Related blog: https://www.cyberdrain.com/documenting-with-powershell-using-powershell-to-create-faster-partner-portal/
+########################## Secure App Model Settings ############################
+$ApplicationId         = '10726a6e-39a1-46df-b178-1f49a9cd89ac'
+$ApplicationSecret     = 'fWLly5c1Xzs0wVxw1JN9N9r4rXQuR8x1SHzemhkswo4=' | Convertto-SecureString -AsPlainText -Force
+$TenantID              = 'caa9ec21-bcab-4544-af18-bfc520f7d18b'
+$RefreshToken          = '0.AWcAIeypyqu8REWvGL_FIPfRi25qchChOd9GsXgfSanNiaxnACY.AgABAAEAAADnfolhJpSnRYB1SVj-Hgd8AgDs_wUA9P_40Y5sg2OroptpR2lhlftfJV4xtJGO2lKbxCQMICcSMNVb1u0078c5o_6LDBL4CCPrVlwD71kBOe1KbkhwAprrQto-JsjyACAy25x4YdkHTT05ks4Z81OUrUg3rfuTE1--MM5FdD1CJk_T_eFRdeDHEULGRkHCrqYCx5cvd3zF6okaZrrNyicM3lgjexfHNuuFfwnvW4l1CALKeIZAWNTt0p-oZrmJdjgmY3C4g831FFSnBE3RJ-1IT2aJxGl9BWwzUhuW3ltjqgBGLWXdofgh2fNqnHzTj9qYlcmWdcWGRO5BXxrmWLXdOG5-MfHc7R7imYrJ0vb4HOH5w8A4XTxiAmCTx0Y1uVk1ImS3NdcftLyKVBZhyMKgHiEU_NBRhZV_zf-l4JoDWG24155RzYEhsbMV_2s9kd0s9PkPxLHlJaDBSpCQqkXu6ArMqAlhJo8CfQcLhQjYkK-9qT6DPDj5s-kY6TKKXN9DZhX6MMl6qwEkY2Fec8AGvhyOEFUcmWBNkEOmCf_nXawdQ9IU2hqUnlhIoemnPDcEkW-6sQKl5-fRrVq3y0QA5RUOxcLaRcTtrNM8T-hlwLA0BTm_ei2LqBPO6E1KwFlXFHhuc5Wppp8ZvPorJFefC0bSIzFKYlXswv4l_YDAA4rgjruFrwQKgIvc8lkU0Y0eT_ImJETkmogqjpxkjJW4kI8HnfOL1vFTLqgqVIMfccQWwIcgJ1OknAnOK6TPbCbd8Jboe_wN3TBslMPre57lalTX2faZjuypSouTF9d8m2vYIRj0scItmuBXd0AO5jOSxzcYaImxV5LaqUZwMKrTkhf3j-mh6Uqg4YmDz7ettbGqhtxF3GFXRNw-weZXMdbeIhhz3KvfG18uIj7TosgorAT6ya1RwxCa1BO7FJpc_Yfh8_V5MHMPKgimeWa2xlbqk-dOZ7Y'
+$ExchangeRefreshToken  = '0.AWcAIeypyqu8REWvGL_FIPfRixY8x6Djp2RFmpUr30c4NxZnACY.AgABAAEAAADnfolhJpSnRYB1SVj-Hgd8AgDs_wUA9P_bh2Hmxpc84EIMNPpJtWL2dPU-7ZXorrci6hAfYv79eTtTQbtZmVpd4uoOL0OBrRTK-Sj7i0QH1XoQ_GNjHvE9YfJHnRxm-JJcaLWxqU3tJFJvjg33LjzyZH6gWz7dn3mtK532f9ySNLDMhd-iNfk413acWMGoMRYHHSEP_MjUrctUWVa2fuFYYoR5Pp0q1JLWIvEKHRiV7ccFDOkS94uv-Gmsfapgqnl6NWDnCL3toLllcZnFhCUZziGWyjbIv3SOaX5AEuGXvhqCBHawWocjHlS5GAckB-4sdWLd5xxeVUbgr2kQ1RvZb3cErDTHfUglfv-XcNrAQbHaAY9Y9tD5-djUxkqcY0jQlqU5k5jqI15ZyghT9q_5KEc6T25enMaiqhRQdZQPk6j41IDVHvDqkLN3gQIxGW9EAl8i60xRa_xxEaA3SurgNP5CgY955Imlpnl8wLfy4Zx3JeazDEWhWpD-BscV5xcX0F1853NcbaYflm8xjEJ5VtDHJMtJOZ5DuDlZypWQUQEy3PbjSlB4WmcgWnFtwTnevdx5tvB7L3QTzZ7SZ5yUC37Y9xPdJd-rcpQso-9clOusPqSLvAs1f54hGFMaEuFZHgGNHqq658Ur8Wm8AHA7kLeGSf6TbdEXuAzUoAFTtov42_J0fVhn8lkjrNL9n0iP3toEvmiU4Ad_xb6SJMZqY8YkG2qAK-O7MBUrvGIkDEEIyVpd8jQP5J7bSW_nsnhSoDp-gxSYBJjdeGX1hMss45zve3NjSXo0V818hWIfjCWMFC-6pI5fNSrvp33C7SM'
+$upn                   = 'cipp@zahe.onmicrosoft.com'
+########################## Secure App Model Settings ############################
+
+$credential = New-Object System.Management.Automation.PSCredential($ApplicationId, $ApplicationSecret)
+$aadGraphToken = New-PartnerAccessToken -ApplicationId $ApplicationId -Credential $credential -RefreshToken $refreshToken -Scopes 'https://graph.windows.net/.default' -ServicePrincipal -Tenant $tenantID
+$graphToken = New-PartnerAccessToken -ApplicationId $ApplicationId -Credential $credential -RefreshToken $refreshToken -Scopes 'https://graph.microsoft.com/.default' -ServicePrincipal -Tenant $tenantID
+
+Connect-MsolService -AdGraphAccessToken $aadGraphToken.AccessToken -MsGraphAccessToken $graphToken.AccessToken
+$customers = Get-MsolPartnerContract -All
+$CustomerLinks = foreach ($customer in $customers) {
+    $domains = (Get-MsolDomain -TenantId $customer.tenantid).Name -join ',' | Out-String
+    [pscustomobject]@{
+        'Client Name'            = $customer.Name
+        'Client tenant domain'   = $customer.DefaultDomainName
+        'O365 Admin Portal'      = "<a target=`"_blank`" href=`"https://portal.office.com/Partner/BeginClientSession.aspx?CTID=$($customer.TenantId)&CSDEST=o365admincenter`">O365 Portal</a>"
+        'Exchange Admin Portal'  = "<a target=`"_blank`" href=`"https://outlook.office365.com/ecp/?rfr=Admin_o365&exsvurl=1&delegatedOrg=$($Customer.DefaultDomainName)`">Exchange Portal</a>"
+        'Azure Active Directory' = "<a target=`"_blank`" href=`"https://aad.portal.azure.com/$($Customer.DefaultDomainName)`" >AAD Portal</a>"
+        'MFA Portal (Read Only)' = "<a target=`"_blank`" href=`"https://account.activedirectory.windowsazure.com/usermanagement/multifactorverification.aspx?tenantId=$($Customer.tenantid)&culture=en-us&requestInitiatedContext=users`" >MFA Portal</a>"
+        'Sfb Portal'             = "<a target=`"_blank`" href=`"https://portal.office.com/Partner/BeginClientSession.aspx?CTID=$($Customer.TenantId)&CSDEST=MicrosoftCommunicationsOnline`">SfB Portal</a>"
+        'Teams Portal'           = "<a target=`"_blank`" href=`"https://admin.teams.microsoft.com/?delegatedOrg=$($Customer.DefaultDomainName)`">Teams Portal</a>"
+        'Azure Portal'           = "<a target=`"_blank`" href=`"https://portal.azure.com/$($customer.DefaultDomainName)`">Azure Portal</a>"
+        'Intune portal'          = "<a target=`"_blank`" href=`"https://portal.azure.com/$($customer.DefaultDomainName)/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview`">Intune Portal</a>"
+        'Domains'                = "Domains: $domains"
+    }
+}
+
+$head = @"
+<script>
+function myFunction() {
+    const filter = document.querySelector('#myInput').value.toUpperCase();
+    const trs = document.querySelectorAll('table tr:not(.header)');
+    trs.forEach(tr => tr.style.display = [...tr.children].find(td => td.innerHTML.toUpperCase().includes(filter)) ? '' : 'none');
+  }</script>
+<Title>LNPP - Lime Networks Partner Portal</Title>
+<style>
+body { background-color:#E5E4E2;
+      font-family:Monospace;
+      font-size:10pt; }
+td, th { border:0px solid black;
+        border-collapse:collapse;
+        white-space:pre; }
+th { color:white;
+    background-color:black; }
+table, tr, td, th {
+     padding: 2px;
+     margin: 0px;
+     white-space:pre; }
+tr:nth-child(odd) {background-color: lightgray}
+table { width:95%;margin-left:5px; margin-bottom:20px; }
+h2 {
+font-family:Tahoma;
+color:#6D7B8D;
+}
+.footer
+{ color:green;
+ margin-left:10px;
+ font-family:Tahoma;
+ font-size:8pt;
+ font-style:italic;
+}
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 50%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+</style>
+"@
+
+$PreContent = @"
+<H1> CyberDrain.com faster partner portal</H1> <br>
+
+For more information, check <a href="https://www.cyberdrain.com/documenting-with-powershell-using-powershell-to-create-faster-partner-portal/"/>CyberDrain.com</a>
+<br/>
+<br/>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+"@
+
+
+$CustomerHTML = $CustomerLinks | ConvertTo-Html -head $head -PreContent $PreContent | Out-String
+
+[System.Web.HttpUtility]::HtmlDecode($CustomerHTML) -replace "<th>Domains", "<th style=display:none;`">" -replace "<td>Domains", "<td style=display:none;`">Domains"  | out-file "C:\temp\index.html"
