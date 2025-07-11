@@ -1,4 +1,4 @@
-<#Set-ExecutionPolicy RemoteSigned -Force
+Set-ExecutionPolicy RemoteSigned -Force
  
 Install-Module OSD -Force
  
@@ -10,10 +10,8 @@ New-OSDCloudWorkspace -WorkspacePath C:\OSDCloud
  
 New-OSDCloudUSB
  
-Edit-OSDCloudwinPE -workspacepath C:\OSDCloud -CloudDriver * -WebPSScript https://gist.githubusercontent.com/Jeffhunter88/ed338a1c3aab4ca6abd2dd68a329d53c/raw/osdcloud_config.ps1 -Verbose
+Edit-OSDCloudwinPE -workspacepath C:\OSDCloud -CloudDriver * -WebPSScript https://github.com/ScottHolzberger/General-Scripts/blob/6a6f04abd01dbed901dd1ca1d669f4f8482809ea/osdcloud_config.ps1 -Verbose
  
 New-OSDCloudISO
  
-Update-OSDCloudUSB#>
-
-Start-OSDCloudGUI
+Update-OSDCloudUSB
