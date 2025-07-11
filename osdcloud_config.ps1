@@ -10,5 +10,3 @@ Write-Host -ForegroundColor Green “Restarting in 20 seconds!”
 Start-Sleep -Seconds 20
 
 wpeutil reboot
-
-Pause
