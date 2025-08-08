@@ -20,4 +20,4 @@ foreach ($user in $users) {
     }
 
     ### Export ###
-    get-mguser | Select userPrincipalName, displayName, givenName, surname, mobilePhone, mail, jobTitle, businessPhones | Export-Csv -Path "C:\Temp\users.csv" -NoTypeInformation
+    get-mguser | Select-Object userPrincipalName, displayName, givenName, surname, mobilePhone, mail, jobTitle, businessPhones | Export-Csv -Path "C:\Temp\users.csv" -NoTypeInformation
