@@ -1,0 +1,5226 @@
+﻿[
+    {
+        "name":  "ZaheZone",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  1,
+        "locations":  [
+                          {
+                              "name":  "Home Office",
+                              "address":  "",
+                              "description":  "",
+                              "id":  1
+                          },
+                          {
+                              "name":  "OVH DC",
+                              "address":  "",
+                              "description":  "",
+                              "id":  2
+                          }
+                      ],
+        "policies":  [
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  65
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  65
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Ligentia",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  3,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  4
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  false
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Rothgard",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  5,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  6
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  81
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  81
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  81
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Truck \u0026 Trailer",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  6,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  7
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  84
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  84
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  84
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "NLT Digital Solutions",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  7,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  8
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  77
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  77
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  77
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Hartnett Lawyers",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  9,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  10
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  79
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  79
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  79
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Silverstone ",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  11,
+        "locations":  [
+                          {
+                              "name":  "Main Office",
+                              "address":  "",
+                              "description":  "",
+                              "id":  12
+                          },
+                          {
+                              "name":  "Onboarding",
+                              "address":  "",
+                              "description":  "",
+                              "id":  17
+                          }
+                      ],
+        "policies":  [
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  92
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  92
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  92
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  92
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  94
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  94
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  92
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  94
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  94
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Curio Financial",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  12,
+        "locations":  [
+                          {
+                              "name":  "Main Office",
+                              "id":  13
+                          },
+                          {
+                              "name":  "Onboarding",
+                              "address":  "",
+                              "description":  "",
+                              "id":  22
+                          }
+                      ],
+        "policies":  [
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  91
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  91
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  88
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  88
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  91
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  91
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "ShieldTech Locksmiths \u0026 Security",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  13,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  14
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Zeuey",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  14,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  15
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  83
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  83
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  83
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Johnston Migration Services",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  15,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  16
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  93
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  93
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  93
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "BJE - Three Peas Creche",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  16,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  18
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "BJE - Karalee Kindergarten \u0026 Early Years Learning",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  17,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  19
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "BJE - Pomona Kindergarten \u0026 Early Years Learning",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  18,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  20
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "OzKleen",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  19,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  21
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  95
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  95
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  96
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Active Security Group",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  20,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  23
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  73
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  false
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Wire-Not Electrical",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  21,
+        "locations":  [
+                          {
+                              "name":  "Main Office",
+                              "id":  24
+                          },
+                          {
+                              "name":  "Onboarding",
+                              "address":  "",
+                              "description":  "",
+                              "id":  26
+                          }
+                      ],
+        "policies":  [
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  98
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  98
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  98
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  99
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  98
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  85
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  97
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  97
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Hart Rural Agencies",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  22,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  25
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  false
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "My Bookkeeping Buddy",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  23,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  27
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  true
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "ZZ Test Customer",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  24,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  28
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  false
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    },
+    {
+        "name":  "Able Industries Engineering",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  25,
+        "locations":  {
+                          "name":  "Main Office",
+                          "id":  29
+                      },
+        "policies":  [
+                         {
+                             "nodeRoleId":  31,
+                             "policyId":  47
+                         },
+                         {
+                             "nodeRoleId":  21,
+                             "policyId":  45
+                         },
+                         {
+                             "nodeRoleId":  116,
+                             "policyId":  41
+                         },
+                         {
+                             "nodeRoleId":  114,
+                             "policyId":  39
+                         },
+                         {
+                             "nodeRoleId":  306,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  112,
+                             "policyId":  37
+                         },
+                         {
+                             "nodeRoleId":  304,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  110,
+                             "policyId":  35
+                         },
+                         {
+                             "nodeRoleId":  302,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  205,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  108,
+                             "policyId":  33
+                         },
+                         {
+                             "nodeRoleId":  203,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  11,
+                             "policyId":  48
+                         },
+                         {
+                             "nodeRoleId":  1002,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  106,
+                             "policyId":  31
+                         },
+                         {
+                             "nodeRoleId":  201,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  9,
+                             "policyId":  43
+                         },
+                         {
+                             "nodeRoleId":  104,
+                             "policyId":  29
+                         },
+                         {
+                             "nodeRoleId":  7,
+                             "policyId":  52
+                         },
+                         {
+                             "nodeRoleId":  102,
+                             "policyId":  27
+                         },
+                         {
+                             "nodeRoleId":  5,
+                             "policyId":  54
+                         },
+                         {
+                             "nodeRoleId":  901,
+                             "policyId":  86
+                         },
+                         {
+                             "nodeRoleId":  3,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  1,
+                             "policyId":  1
+                         },
+                         {
+                             "nodeRoleId":  22,
+                             "policyId":  46
+                         },
+                         {
+                             "nodeRoleId":  117,
+                             "policyId":  42
+                         },
+                         {
+                             "nodeRoleId":  115,
+                             "policyId":  40
+                         },
+                         {
+                             "nodeRoleId":  113,
+                             "policyId":  38
+                         },
+                         {
+                             "nodeRoleId":  305,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  111,
+                             "policyId":  36
+                         },
+                         {
+                             "nodeRoleId":  303,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  206,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  109,
+                             "policyId":  34
+                         },
+                         {
+                             "nodeRoleId":  301,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  204,
+                             "policyId":  3
+                         },
+                         {
+                             "nodeRoleId":  12,
+                             "policyId":  49
+                         },
+                         {
+                             "nodeRoleId":  107,
+                             "policyId":  32
+                         },
+                         {
+                             "nodeRoleId":  202,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  10,
+                             "policyId":  44
+                         },
+                         {
+                             "nodeRoleId":  1001,
+                             "policyId":  2
+                         },
+                         {
+                             "nodeRoleId":  105,
+                             "policyId":  30
+                         },
+                         {
+                             "nodeRoleId":  103,
+                             "policyId":  28
+                         },
+                         {
+                             "nodeRoleId":  902,
+                             "policyId":  87
+                         },
+                         {
+                             "nodeRoleId":  6,
+                             "policyId":  50
+                         },
+                         {
+                             "nodeRoleId":  101,
+                             "policyId":  26
+                         },
+                         {
+                             "nodeRoleId":  4,
+                             "policyId":  4
+                         },
+                         {
+                             "nodeRoleId":  2,
+                             "policyId":  2
+                         }
+                     ],
+        "settings":  {
+                         "trayicon":  {
+                                          "enabled":  false
+                                      },
+                         "splashtop":  {
+                                           "enabled":  false
+                                       },
+                         "teamviewer":  {
+                                            "enabled":  false
+                                        },
+                         "backup":  {
+                                        "enabled":  false
+                                    },
+                         "psa":  {
+                                     "enabled":  true
+                                 }
+                     }
+    }
+]

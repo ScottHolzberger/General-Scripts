@@ -1,0 +1,107 @@
+﻿[
+    {
+        "name":  "ZaheZone",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  1
+    },
+    {
+        "name":  "Ligentia",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  3
+    },
+    {
+        "name":  "Rothgard",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  5
+    },
+    {
+        "name":  "Truck \u0026 Trailer",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  6
+    },
+    {
+        "name":  "NLT Digital Solutions",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  7
+    },
+    {
+        "name":  "Hartnett Lawyers",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  9
+    },
+    {
+        "name":  "Silverstone ",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  11
+    },
+    {
+        "name":  "Curio Financial",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  12
+    },
+    {
+        "name":  "ShieldTech Locksmiths \u0026 Security",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  13
+    },
+    {
+        "name":  "Zeuey",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  14
+    },
+    {
+        "name":  "Johnston Migration Services",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  15
+    },
+    {
+        "name":  "BJE - Three Peas Creche",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  16
+    },
+    {
+        "name":  "BJE - Karalee Kindergarten \u0026 Early Years Learning",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  17
+    },
+    {
+        "name":  "BJE - Pomona Kindergarten \u0026 Early Years Learning",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  18
+    },
+    {
+        "name":  "OzKleen",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  19
+    },
+    {
+        "name":  "Active Security Group",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  20
+    },
+    {
+        "name":  "Wire-Not Electrical",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  21
+    },
+    {
+        "name":  "Hart Rural Agencies",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  22
+    },
+    {
+        "name":  "My Bookkeeping Buddy",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  23
+    },
+    {
+        "name":  "ZZ Test Customer",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  24
+    },
+    {
+        "name":  "Able Industries Engineering",
+        "nodeApprovalMode":  "AUTOMATIC",
+        "id":  25
+    }
+]

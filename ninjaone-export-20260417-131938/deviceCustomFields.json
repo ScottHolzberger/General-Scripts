@@ -1,0 +1,849 @@
+﻿[
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "CHECKBOX",
+        "label":  "DeviceOnboarded",
+        "description":  "",
+        "name":  "deviceonboarded",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1753401985.082345000,
+        "updateTime":  1753401985.082345000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT_ENCRYPTED",
+        "label":  "NinjaOne Client ID",
+        "description":  "",
+        "name":  "ninjaoneClientId",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "maxCharacters":  200,
+                                                 "complexityRules":  {
+                                                                         "mustContainOneInteger":  false,
+                                                                         "mustContainOneLowercaseLetter":  false,
+                                                                         "mustContainOneUppercaseLetter":  false,
+                                                                         "greaterOrEqualThanSixCharacters":  false
+                                                                     }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1754621213.832375000,
+        "updateTime":  1754622477.230593000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "NinjaOne Instance",
+        "description":  "",
+        "name":  "ninjaoneInstance",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1754621289.329186000,
+        "updateTime":  1754622493.290934000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "NUMERIC",
+        "label":  "Setup Sequence",
+        "description":  "",
+        "name":  "setupSequence",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "numericRange":  {
+                                                                      "max":  10
+                                                                  }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1753425930.707209000,
+        "updateTime":  1753523089.615916000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "DECIMAL",
+        "label":  "Disk Cleanup - Reclaimed Space",
+        "description":  "",
+        "name":  "diskCleanupReclaimedSpace",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "numericRange":  {
+
+                                                                  }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1774767762.110173000,
+        "updateTime":  1774767762.110174000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "WYSIWYG",
+        "label":  "Disk Clean Up - Full Results",
+        "description":  "",
+        "name":  "diskCleanUpFullResults",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1774765989.180186000,
+        "updateTime":  1774767770.832307000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "DATE",
+        "label":  "Disk Clean Up - Last Date",
+        "description":  "",
+        "name":  "diskCleanUpLastDate",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "dateFilters":  {
+                                                                     "type":  "NONE",
+                                                                     "selected":  null
+                                                                 }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1774765955.763256000,
+        "updateTime":  1774767780.857072000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Last Logged In User",
+        "description":  "",
+        "name":  "lastLoggedInUser",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "WRITE_ONLY",
+        "apiPermission":  "READ_ONLY",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1762941241.860635000,
+        "updateTime":  1762941241.860636000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "WYSIWYG",
+        "label":  "User Feedback History",
+        "description":  "",
+        "name":  "userFeedbackHistory",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1763276061.484474000,
+        "updateTime":  1763276061.484474000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Acronis Agent version",
+        "description":  "",
+        "name":  "acronisAgentVersion",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1736481458.610943000,
+        "updateTime":  1736481458.610944000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Protection status",
+        "description":  "",
+        "name":  "protectionStatus",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1736481483.674825000,
+        "updateTime":  1736481483.674825000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Protection plan name",
+        "description":  "",
+        "name":  "protectionPlanName",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1736481505.132927000,
+        "updateTime":  1736481505.132928000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "ORGANIZATION",
+        "type":  "NUMERIC",
+        "label":  "HaloCustomerNumber",
+        "description":  "",
+        "name":  "halocustomernumber",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  true,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "numericRange":  {
+                                                                      "min":  1
+                                                                  }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1775089814.074573000,
+        "updateTime":  1775089814.074576000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "DATE_TIME",
+        "label":  "Last backup date",
+        "description":  "",
+        "name":  "lastBackupDate",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "dateFilters":  {
+                                                                     "type":  "NONE",
+                                                                     "selected":  null
+                                                                 }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1736481535.441705000,
+        "updateTime":  1736481535.441706000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "DATE_TIME",
+        "label":  "Next backup date",
+        "description":  "",
+        "name":  "nextBackupDate",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "dateFilters":  {
+                                                                     "type":  "NONE",
+                                                                     "selected":  null
+                                                                 }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1736481556.981097000,
+        "updateTime":  1736481556.981097000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "ORGANIZATION",
+        "type":  "WYSIWYG",
+        "label":  "Microsoft 365 Tenant Links",
+        "description":  "",
+        "name":  "microsoft365TenantLinks",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_ONLY",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263500.017040000,
+        "updateTime":  1737263500.017040000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "CHECKBOX",
+        "label":  "Patch Pilot",
+        "description":  "",
+        "name":  "patchPilot",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1738036709.020559000,
+        "updateTime":  1738036709.020560000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "ORGANIZATION",
+        "type":  "CHECKBOX",
+        "label":  "PatchManage",
+        "description":  "",
+        "name":  "patchmanage",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1738209668.656032000,
+        "updateTime":  1738209668.656033000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "ORGANIZATION",
+        "type":  "WYSIWYG",
+        "label":  "Microsoft 365 Tenant Summary",
+        "description":  "",
+        "name":  "microsoft365TenantSummary",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "NONE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263659.796939000,
+        "updateTime":  1737263659.796939000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "ORGANIZATION",
+        "type":  "WYSIWYG",
+        "label":  "Microsoft 365 User Summary",
+        "description":  "",
+        "name":  "microsoft365UserSummary",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "NONE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263685.836652000,
+        "updateTime":  1737263685.836652000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "WYSIWYG",
+        "label":  "Microsoft 365 Device Links",
+        "description":  "",
+        "name":  "microsoft365DeviceLinks",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "NONE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263706.935218000,
+        "updateTime":  1737263706.935219000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "WYSIWYG",
+        "label":  "Microsoft 365 Device Summary",
+        "description":  "",
+        "name":  "microsoft365DeviceSummary",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "NONE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263731.766863000,
+        "updateTime":  1737263731.766864000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Intune Device Compliance",
+        "description":  "",
+        "name":  "intuneDeviceCompliance",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "NONE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1737263873.569533000,
+        "updateTime":  1737263873.569534000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT_ENCRYPTED",
+        "label":  "NinjaOne Client Secret",
+        "description":  "",
+        "name":  "ninjaoneClientSecret",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "maxCharacters":  200,
+                                                 "complexityRules":  {
+                                                                         "mustContainOneInteger":  false,
+                                                                         "mustContainOneLowercaseLetter":  false,
+                                                                         "mustContainOneUppercaseLetter":  false,
+                                                                         "greaterOrEqualThanSixCharacters":  false
+                                                                     }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1754621259.574255000,
+        "updateTime":  1754622454.932117000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT_MULTILINE",
+        "label":  "MultiLineTest",
+        "description":  "",
+        "name":  "multilinetest",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1763277119.235493000,
+        "updateTime":  1763277119.235494000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT_MULTILINE",
+        "label":  "Latest User Feedback",
+        "description":  "",
+        "name":  "latestUserFeedback",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1763426386.469625000,
+        "updateTime":  1763426386.469628000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "WYSIWYG",
+        "label":  "Latest Performance Information",
+        "description":  "",
+        "name":  "latestPerformanceInformation",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "expandLargeValueOnRender":  false
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1763429399.013217000,
+        "updateTime":  1763429399.013220000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT",
+        "label":  "Customer Local Admin Account Name",
+        "description":  "",
+        "name":  "customerLocalAdminAccountName",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1764155962.945134000,
+        "updateTime":  1764155962.945135000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "TEXT_ENCRYPTED",
+        "label":  "Customer Local Admin Account Password",
+        "description":  "",
+        "name":  "customerLocalAdminAccountPassword",
+        "technicianPermission":  "READ_ONLY",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "maxCharacters":  200,
+                                                 "complexityRules":  {
+                                                                         "mustContainOneInteger":  false,
+                                                                         "mustContainOneLowercaseLetter":  false,
+                                                                         "mustContainOneUppercaseLetter":  false,
+                                                                         "greaterOrEqualThanSixCharacters":  false
+                                                                     }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1764156011.554701000,
+        "updateTime":  1764156011.554701000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "NUMERIC",
+        "label":  "Hours Since Last Reboot",
+        "description":  "",
+        "name":  "hoursSinceLastReboot",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  {
+                                                 "numericRange":  {
+                                                                      "min":  0,
+                                                                      "max":  999
+                                                                  }
+                                             }
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1764237728.958821000,
+        "updateTime":  1764237728.958821000
+    },
+    {
+        "entityType":  "NODE",
+        "scope":  "NODE_ROLE",
+        "definitionScope":  "NODE",
+        "type":  "CHECKBOX",
+        "label":  "Reboot Acknowledged",
+        "description":  "",
+        "name":  "rebootAcknowledged",
+        "technicianPermission":  "EDITABLE",
+        "scriptPermission":  "READ_WRITE",
+        "apiPermission":  "READ_WRITE",
+        "content":  {
+                        "customizeForEndUser":  false,
+                        "endUserCustomization":  null,
+                        "values":  null,
+                        "required":  false,
+                        "footerText":  "",
+                        "tooltipText":  "",
+                        "advancedSettings":  null
+                    },
+        "system":  false,
+        "active":  true,
+        "createTime":  1764240550.053727000,
+        "updateTime":  1764242331.781975000
+    }
+]

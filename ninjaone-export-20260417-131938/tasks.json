@@ -1,0 +1,29 @@
+﻿[
+    {
+        "id":  28,
+        "name":  "Weekly Reboot (6:00pm)",
+        "description":  "",
+        "enabled":  true,
+        "created":  1753162791.267000000,
+        "lastRun":  1776326403.388000000,
+        "runCount":  0
+    },
+    {
+        "id":  29,
+        "name":  "Weekly Reboot (6:30pm)",
+        "description":  "",
+        "enabled":  true,
+        "created":  1753162861.805000000,
+        "lastRun":  1776328200.721000000,
+        "runCount":  0
+    },
+    {
+        "id":  32,
+        "name":  "Force Reboot - Devices not restarted in 5 days",
+        "description":  "",
+        "enabled":  true,
+        "created":  1764239022.054000000,
+        "lastRun":  1776340801.007000000,
+        "runCount":  0
+    }
+]

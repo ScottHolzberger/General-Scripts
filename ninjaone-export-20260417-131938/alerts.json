@@ -1,0 +1,617 @@
+﻿[
+    {
+        "uid":  "9fb3ee2a-3072-4738-a113-c3929daf8448",
+        "deviceId":  247,
+        "message":  "EventId: 0, EventTime: 2026-03-29T10:39:59Z, Source: MailStoreServer Auditing, Message: Archive messages.\r\n\r\nOriginalTimestamp:\t2026-03-29 10:39:59\r\nIdentityUserName:\tadmin\r\nActivityType:\tProfileRunArc (Success)\r\nProfileName:\tMailStore Gateway Mailbox (2) (2)\r\nProfileProperties:\t{\r\n  \"id\": 3,\r\n  \"version\": 37,\r\n  \"owner\": \"admin\",\r\n  \"type\": \"I\",\r\n  \"connector\": \"Gateway\",\r\n  \"name\": \"MailStore Gateway Mailbox (2) (2)\",\r\n  \"details\": {\r\n    \"catchallTargetFolder\": \"@catchall/Unknown e-mail addresses\",\r\n    \"deleteCondition\": \"after-import\",\r\n    \"host\": \"archive.zahezone.com.au\",\r\n    \"ignoreSSLPolicyErrors\": \"0\",\r\n    \"inboxRelativeTargetFolder\": \"Journal Incoming\",\r\n    \"performDirectorySync\": \"1\",\r\n    \"sentRelativeTargetFolder\": \"Journal Outgoing\",\r\n    \"sourceType\": \"1\",\r\n    \"timeout\": \"300\",\r\n    \"userName\": \"mbx-45cdfef9dab34205a76c96256a5a95c6\"\r\n  },\r\n  \"serverSideExecution\": {\r\n    \"automatic\": \"true\",\r\n    \"automaticPauseBetweenExecutions\": \"900\"\r\n  }\r\n}\r\nStartTime:\t20260329103957\r\nCompleteTime:\t20260329103959\r\nResult:\tSucceeded\r\nStatisticsArchived:\t2\r\nStatisticsSkippedAlreadyArchived:\t2\r\nIdentityRemoteEndPoint:\t127.0.0.1\r\nIdentityWorkstationName:\tSSDMAILSTORE\r\nIdentityUserAgent:\tMailStore Server\r\n",
+        "createTime":  1774780971.000000000,
+        "updateTime":  1774780971.000000000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "4b8b9f29-a9ce-4f50-b573-99e29882f98f",
+        "sourceName":  "",
+        "subject":  "0",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "0",
+                                                    "event_time":  "2026-03-29T10:39:59Z",
+                                                    "event_source":  "MailStoreServer Auditing",
+                                                    "msg":  "Archive messages.\r\n\r\nOriginalTimestamp:\t2026-03-29 10:39:59\r\nIdentityUserName:\tadmin\r\nActivityType:\tProfileRunArc (Success)\r\nProfileName:\tMailStore Gateway Mailbox (2) (2)\r\nProfileProperties:\t{\r\n  \"id\": 3,\r\n  \"version\": 37,\r\n  \"owner\": \"admin\",\r\n  \"type\": \"I\",\r\n  \"connector\": \"Gateway\",\r\n  \"name\": \"MailStore Gateway Mailbox (2) (2)\",\r\n  \"details\": {\r\n    \"catchallTargetFolder\": \"@catchall/Unknown e-mail addresses\",\r\n    \"deleteCondition\": \"after-import\",\r\n    \"host\": \"archive.zahezone.com.au\",\r\n    \"ignoreSSLPolicyErrors\": \"0\",\r\n    \"inboxRelativeTargetFolder\": \"Journal Incoming\",\r\n    \"performDirectorySync\": \"1\",\r\n    \"sentRelativeTargetFolder\": \"Journal Outgoing\",\r\n    \"sourceType\": \"1\",\r\n    \"timeout\": \"300\",\r\n    \"userName\": \"mbx-45cdfef9dab34205a76c96256a5a95c6\"\r\n  },\r\n  \"serverSideExecution\": {\r\n    \"automatic\": \"true\",\r\n    \"automaticPauseBetweenExecutions\": \"900\"\r\n  }\r\n}\r\nStartTime:\t20260329103957\r\nCompleteTime:\t20260329103959\r\nResult:\tSucceeded\r\nStatisticsArchived:\t2\r\nStatisticsSkippedAlreadyArchived:\t2\r\nIdentityRemoteEndPoint:\t127.0.0.1\r\nIdentityWorkstationName:\tSSDMAILSTORE\r\nIdentityUserAgent:\tMailStore Server\r\n"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"MailStoreServer Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "584f5bc8-e4d4-44c0-8916-f9bdb8f4ac05",
+        "deviceId":  388,
+        "message":  "EventId: 4625, EventTime: 2026-03-29T21:24:53Z, Source: Microsoft-Windows-Security-Auditing, Message: An account failed to log on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWNELAPTOP02$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nLogon Type:\t\t\t2\r\n\r\nAccount For Which Logon Failed:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\tOffice\r\n\tAccount Domain:\t\tWNELAPTOP02\r\n\r\nFailure Information:\r\n\tFailure Reason:\t\tUnknown user name or bad password.\r\n\tStatus:\t\t\t0xC000006D\r\n\tSub Status:\t\t0xC000006A\r\n\r\nProcess Information:\r\n\tCaller Process ID:\t0xa4c\r\n\tCaller Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\tWNELAPTOP02\r\n\tSource Network Address:\t127.0.0.1\r\n\tSource Port:\t\t0\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tUser32 \r\n\tAuthentication Package:\tNegotiate\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\r\n\r\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe Process Information fields indicate which account and process on the system requested the logon.\r\n\r\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",
+        "createTime":  1774860871.000000000,
+        "updateTime":  1774860871.000000000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "b432d590-2b1d-4bd8-8bbd-9a5aed785e6b",
+        "sourceName":  "",
+        "subject":  "4625",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "4625",
+                                                    "event_time":  "2026-03-29T21:24:53Z",
+                                                    "event_source":  "Microsoft-Windows-Security-Auditing",
+                                                    "msg":  "An account failed to log on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tWNELAPTOP02$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nLogon Type:\t\t\t2\r\n\r\nAccount For Which Logon Failed:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\tOffice\r\n\tAccount Domain:\t\tWNELAPTOP02\r\n\r\nFailure Information:\r\n\tFailure Reason:\t\tUnknown user name or bad password.\r\n\tStatus:\t\t\t0xC000006D\r\n\tSub Status:\t\t0xC000006A\r\n\r\nProcess Information:\r\n\tCaller Process ID:\t0xa4c\r\n\tCaller Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\tWNELAPTOP02\r\n\tSource Network Address:\t127.0.0.1\r\n\tSource Port:\t\t0\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tUser32 \r\n\tAuthentication Package:\tNegotiate\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\r\n\r\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe Process Information fields indicate which account and process on the system requested the logon.\r\n\r\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"Microsoft-Windows-Security-Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "e5f4a3a1-afb2-4bd4-a6fa-21c1f46cd18a",
+        "deviceId":  437,
+        "message":  "Disk Volume Free space for \u0027F:\u0027 is less than or equal to 20% from 2026-04-09T04:18:56Z to 2026-04-09T04:18:56Z",
+        "createTime":  1775708402.278964000,
+        "updateTime":  1775708402.278964000,
+        "sourceType":  "CONDITION_AGENT_DISK_FREE_SPACE",
+        "sourceConfigUid":  "90f5d9ec-3a8f-400e-ab95-d930a8d9788e",
+        "sourceName":  "",
+        "subject":  "F:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_free_le",
+                                     "params":  {
+                                                    "volume":  "F:",
+                                                    "unit":  "%",
+                                                    "threshold":  "20",
+                                                    "start_date":  "2026-04-09T04:18:56Z",
+                                                    "end_date":  "2026-04-09T04:18:56Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Free Space is less than or equal to 20% for 15 minutes Exclude Boot Volume Exclude recovery volume for window device(s) Exclude removable disk for window device(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "6b98bac7-a10c-405f-9320-f712212910e6",
+        "deviceId":  306,
+        "message":  "Disk Active time for \u0027C:\u0027 is greater than 90% from 2026-04-11T08:14:38Z to 2026-04-11T08:28:51Z",
+        "createTime":  1775896181.241016000,
+        "updateTime":  1775896181.241016000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "b1230700-535f-4861-81fe-4f0bbe5bece4",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_gt",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-11T08:14:38Z",
+                                                    "end_date":  "2026-04-11T08:28:51Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than 90  % for 15 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "5e553bef-9eaa-41a5-bbc7-1be3cdd83f0f",
+        "deviceId":  340,
+        "message":  "Disk Active time for \u0027C:\u0027 is greater than 90% from 2026-04-10T05:01:04Z to 2026-04-12T21:32:39Z",
+        "createTime":  1776030600.927262000,
+        "updateTime":  1776030600.927262000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "b1230700-535f-4861-81fe-4f0bbe5bece4",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_gt",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-10T05:01:04Z",
+                                                    "end_date":  "2026-04-12T21:32:39Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than 90  % for 15 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "56e3da2a-eb24-423a-8d70-36c4322822d1",
+        "deviceId":  456,
+        "message":  "Disk Volume Free space for \u0027F:\u0027 is less than or equal to 15% from 2026-04-16T05:44:03Z to 2026-04-16T05:44:03Z",
+        "createTime":  1776318410.792940000,
+        "updateTime":  1776318410.792940000,
+        "sourceType":  "CONDITION_AGENT_DISK_FREE_SPACE",
+        "sourceConfigUid":  "90f5d9ec-3a8f-400e-ab95-d930a8d9788e",
+        "sourceName":  "",
+        "subject":  "F:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_free_le",
+                                     "params":  {
+                                                    "volume":  "F:",
+                                                    "unit":  "%",
+                                                    "threshold":  "15",
+                                                    "start_date":  "2026-04-16T05:44:03Z",
+                                                    "end_date":  "2026-04-16T05:44:03Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk free space is less than or equal to 15 % for 15 minutes  Exclude boot volume  Exclude recovery volume for window device(s) Exclude removable disk for window device(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "7d0eda84-33ef-46d2-a971-eb826bbaca11",
+        "deviceId":  139,
+        "message":  "Disk Active time for \u0027C:\u0027 is greater than 90% from 2026-04-16T04:35:21Z to 2026-04-16T06:16:21Z",
+        "createTime":  1776329971.377097000,
+        "updateTime":  1776329971.377097000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "b1230700-535f-4861-81fe-4f0bbe5bece4",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_gt",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-16T04:35:21Z",
+                                                    "end_date":  "2026-04-16T06:16:21Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than 90  % for 15 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "4b5556fa-fb9a-402c-8331-7f3491d11439",
+        "deviceId":  377,
+        "message":  "System has not rebooted for more than 30 days. Last reboot time: \u00272026-02-18T01:44:45Z\u0027",
+        "createTime":  1776337624.971522000,
+        "updateTime":  1776337624.971522000,
+        "sourceType":  "CONDITION_SYSTEM_UPTIME",
+        "sourceConfigUid":  "58d49268-b0eb-4df8-bda3-742a09b76702",
+        "sourceName":  "",
+        "subject":  "",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_sys_uptime",
+                                     "params":  {
+                                                    "reboot_days":  "30",
+                                                    "reboot_date":  "2026-02-18T01:44:45Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Device has not rebooted in 30 day(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "797c69d5-496f-4ab8-9112-24aea996cebb",
+        "deviceId":  456,
+        "message":  "Disk Active time for \u0027E:\u0027 is greater than or equal to 90% from 2026-04-16T16:56:27Z to 2026-04-16T17:55:32Z",
+        "createTime":  1776362252.984254000,
+        "updateTime":  1776362252.984254000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "356d3f1b-0a37-42c0-b918-7f1109e5c617",
+        "sourceName":  "",
+        "subject":  "E:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_ge",
+                                     "params":  {
+                                                    "volume":  "E:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-16T16:56:27Z",
+                                                    "end_date":  "2026-04-16T17:55:32Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than or equal to 90  % for 60 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "c19a98dd-3d35-433c-9204-872d7e0bd7e8",
+        "deviceId":  456,
+        "message":  "Disk Active time for \u0027G:\u0027 is greater than or equal to 90% from 2026-04-16T16:56:27Z to 2026-04-16T17:55:32Z",
+        "createTime":  1776362252.985022000,
+        "updateTime":  1776362252.985022000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "356d3f1b-0a37-42c0-b918-7f1109e5c617",
+        "sourceName":  "",
+        "subject":  "G:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_ge",
+                                     "params":  {
+                                                    "volume":  "G:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-16T16:56:27Z",
+                                                    "end_date":  "2026-04-16T17:55:32Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than or equal to 90  % for 60 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "c64c00c4-8b4a-4092-9f01-3ab006466946",
+        "deviceId":  456,
+        "message":  "Disk Active time for \u0027C:\u0027 is greater than or equal to 90% from 2026-04-16T16:56:27Z to 2026-04-16T17:55:32Z",
+        "createTime":  1776362252.985449000,
+        "updateTime":  1776362252.985449000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "356d3f1b-0a37-42c0-b918-7f1109e5c617",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_ge",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-16T16:56:27Z",
+                                                    "end_date":  "2026-04-16T17:55:32Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than or equal to 90  % for 60 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "2349276d-100a-487b-a584-b5745b738f84",
+        "deviceId":  243,
+        "message":  "VM Host has not rebooted for more than 30 day(s)",
+        "createTime":  1776383165.612000000,
+        "updateTime":  1776383165.612000000,
+        "sourceType":  "CONDITION_VM_HOST_UPTIME",
+        "sourceConfigUid":  "a449452a-5708-441b-905b-44d3ade28276",
+        "sourceName":  "",
+        "subject":  "",
+        "data":  {
+                     "message":  {
+                                     "code":  "vmm_cond_host_uptime",
+                                     "params":  {
+                                                    "duration":  30,
+                                                    "value":  70
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "VM Host is up for 30 day(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "3bc8ec56-24b8-4273-9a7e-5f2d8f38e8ff",
+        "deviceId":  294,
+        "message":  "EventId: 4740, EventTime: 2026-04-17T00:00:46Z, Source: Microsoft-Windows-Security-Auditing, Message: A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDRDS01$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-2027944503-1467492315-860153629-500\r\n\tAccount Name:\t\tAdministrator\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tWIN-AFQ4SLQF1I5",
+        "createTime":  1776384101.994101000,
+        "updateTime":  1776384101.994101000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "0e14e871-1abc-41f6-ac60-8a5a90425108",
+        "sourceName":  "",
+        "subject":  "4740",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "4740",
+                                                    "event_time":  "2026-04-17T00:00:46Z",
+                                                    "event_source":  "Microsoft-Windows-Security-Auditing",
+                                                    "msg":  "A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDRDS01$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-2027944503-1467492315-860153629-500\r\n\tAccount Name:\t\tAdministrator\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tWIN-AFQ4SLQF1I5"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"Microsoft-Windows-Security-Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "dbb66c79-e24d-4dfa-922d-1fa5f6cf2f6d",
+        "deviceId":  385,
+        "message":  "VM Host has not rebooted for more than 30 day(s)",
+        "createTime":  1776388083.551937000,
+        "updateTime":  1776388083.551937000,
+        "sourceType":  "CONDITION_VM_HOST_UPTIME",
+        "sourceConfigUid":  "a449452a-5708-441b-905b-44d3ade28276",
+        "sourceName":  "",
+        "subject":  "",
+        "data":  {
+                     "message":  {
+                                     "code":  "vmm_cond_host_uptime",
+                                     "params":  {
+                                                    "duration":  30,
+                                                    "value":  57
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "VM Host is up for 30 day(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "1270f8a6-9a0e-4a28-81d7-fcd8b3065e0f",
+        "deviceId":  115,
+        "message":  "EventId: 4740, EventTime: 2026-04-17T01:08:30Z, Source: Microsoft-Windows-Security-Auditing, Message: A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tNLTABNEAD01$\r\n\tAccount Domain:\t\tNLTA\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-3474800998-952204647-1708182340-1876\r\n\tAccount Name:\t\trkurian\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tNLT-PC-PF1MKC2U",
+        "createTime":  1776388233.632097000,
+        "updateTime":  1776388233.632097000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "0e14e871-1abc-41f6-ac60-8a5a90425108",
+        "sourceName":  "",
+        "subject":  "4740",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "4740",
+                                                    "event_time":  "2026-04-17T01:08:30Z",
+                                                    "event_source":  "Microsoft-Windows-Security-Auditing",
+                                                    "msg":  "A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tNLTABNEAD01$\r\n\tAccount Domain:\t\tNLTA\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-3474800998-952204647-1708182340-1876\r\n\tAccount Name:\t\trkurian\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tNLT-PC-PF1MKC2U"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"Microsoft-Windows-Security-Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "06ffab89-2a20-4395-b173-9ec1627fd08e",
+        "deviceId":  382,
+        "message":  "VM Host has not rebooted for more than 30 day(s)",
+        "createTime":  1776388396.580000000,
+        "updateTime":  1776388396.580000000,
+        "sourceType":  "CONDITION_VM_HOST_UPTIME",
+        "sourceConfigUid":  "a449452a-5708-441b-905b-44d3ade28276",
+        "sourceName":  "",
+        "subject":  "",
+        "data":  {
+                     "message":  {
+                                     "code":  "vmm_cond_host_uptime",
+                                     "params":  {
+                                                    "duration":  30,
+                                                    "value":  70
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "VM Host is up for 30 day(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "f2a943f5-b1ac-43b5-b6b3-cfbd3ebc4c35",
+        "deviceId":  310,
+        "message":  "Disk Volume Free space for \u0027C:\u0027 is less than or equal to 5% from 2026-04-17T01:16:05Z to 2026-04-17T01:16:05Z",
+        "createTime":  1776388610.819861000,
+        "updateTime":  1776388610.819861000,
+        "sourceType":  "CONDITION_AGENT_DISK_FREE_SPACE",
+        "sourceConfigUid":  "189dd6ff-5f8f-4f2c-ad42-86104bd5927f",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_free_le",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "unit":  "%",
+                                                    "threshold":  "5",
+                                                    "start_date":  "2026-04-17T01:16:05Z",
+                                                    "end_date":  "2026-04-17T01:16:05Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Free Space is less than or equal to 5% for 15 minutes, start alerting after 10 minutes Exclude recovery volume for window device(s) Exclude removable disk for window device(s)",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "0f370ae9-fac8-4671-b453-369febbe2bac",
+        "deviceId":  118,
+        "message":  "Windows Service: \u0027KDC Proxy Server service (KPS) (KPSSVC)\u0027 is Stopped at \u00272026-04-17T01:39:31Z\u0027",
+        "createTime":  1776390016.016621000,
+        "updateTime":  1776390016.016621000,
+        "sourceType":  "CONDITION_WINDOWS_SERVICE_STATE_CHANGED",
+        "sourceConfigUid":  "f80a5b70-d4ca-426b-a6e8-6d3b87e52a72",
+        "sourceName":  "",
+        "subject":  "KPSSVC",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_service_state",
+                                     "params":  {
+                                                    "service_name":  "KDC Proxy Server service (KPS) (KPSSVC)",
+                                                    "state":  "Stopped",
+                                                    "datetime":  "2026-04-17T01:39:31Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Windows Service \u0027NTDS OR ADWS OR Netlogon OR DNS OR DNScache OR DHCP OR DFSR OR IsmServ OR w32time OR RPCSS OR SAMSS OR CertSvc OR KPSSVC\u0027 is Down. Start alerting after 3 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "5a7956d6-3ac8-4907-97d1-60ad1fd6b73c",
+        "deviceId":  118,
+        "message":  "Windows Service: \u0027KDC Proxy Server service (KPS) (KPSSVC)\u0027 is Stopped at \u00272026-04-17T01:39:31Z\u0027",
+        "createTime":  1776390016.017564000,
+        "updateTime":  1776390016.017564000,
+        "sourceType":  "CONDITION_WINDOWS_SERVICE_STATE_CHANGED",
+        "sourceConfigUid":  "c84458ae-615f-46d2-87f4-add0b3f1ad6a",
+        "sourceName":  "",
+        "subject":  "KPSSVC",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_service_state",
+                                     "params":  {
+                                                    "service_name":  "KDC Proxy Server service (KPS) (KPSSVC)",
+                                                    "state":  "Stopped",
+                                                    "datetime":  "2026-04-17T01:39:31Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Windows Service KPSSVC OR Netlogon OR lanmanserver OR dnscache OR rpcss OR samss OR w32time OR ismserv OR laNmanworkstation is Down. Start alerting after 3 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "82756aae-3d99-44d9-8874-b2be30430fa2",
+        "deviceId":  377,
+        "message":  "Disk Active time for \u0027C:\u0027 is greater than or equal to 90% from 2026-04-17T01:47:09Z to 2026-04-17T02:46:22Z",
+        "createTime":  1776394034.122594000,
+        "updateTime":  1776394034.122594000,
+        "sourceType":  "CONDITION_AGENT_DISK_IO",
+        "sourceConfigUid":  "356d3f1b-0a37-42c0-b918-7f1109e5c617",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_act_ge",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "threshold":  "90",
+                                                    "start_date":  "2026-04-17T01:47:09Z",
+                                                    "end_date":  "2026-04-17T02:46:22Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Active Time is greater than or equal to 90  % for 60 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "fc53aa6f-b970-4dd8-8ac5-ced45ea4014e",
+        "deviceId":  342,
+        "message":  "EventId: 4740, EventTime: 2026-04-17T03:07:04Z, Source: Microsoft-Windows-Security-Auditing, Message: A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDAD02$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-1382436746-3595243347-2784995946-1281\r\n\tAccount Name:\t\tadmin\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tworkstation",
+        "createTime":  1776395354.301558000,
+        "updateTime":  1776395354.301558000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "0e14e871-1abc-41f6-ac60-8a5a90425108",
+        "sourceName":  "",
+        "subject":  "4740",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "4740",
+                                                    "event_time":  "2026-04-17T03:07:04Z",
+                                                    "event_source":  "Microsoft-Windows-Security-Auditing",
+                                                    "msg":  "A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDAD02$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-1382436746-3595243347-2784995946-1281\r\n\tAccount Name:\t\tadmin\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tworkstation"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"Microsoft-Windows-Security-Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "1647164a-ebbf-434d-9e2b-b14f5c2489ab",
+        "deviceId":  249,
+        "message":  "EventId: 4740, EventTime: 2026-04-17T03:07:04Z, Source: Microsoft-Windows-Security-Auditing, Message: A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDAD$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-1382436746-3595243347-2784995946-1281\r\n\tAccount Name:\t\tadmin\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tworkstation",
+        "createTime":  1776395369.312637000,
+        "updateTime":  1776395369.312637000,
+        "sourceType":  "CONDITION_WINDOWS_EVENT_LOG_TRIGGERED",
+        "sourceConfigUid":  "0e14e871-1abc-41f6-ac60-8a5a90425108",
+        "sourceName":  "",
+        "subject":  "4740",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_cond_eventlog2",
+                                     "params":  {
+                                                    "event_id":  "4740",
+                                                    "event_time":  "2026-04-17T03:07:04Z",
+                                                    "event_source":  "Microsoft-Windows-Security-Auditing",
+                                                    "msg":  "A user account was locked out.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSSDAD$\r\n\tAccount Domain:\t\tSSD\r\n\tLogon ID:\t\t0x3E7\r\n\r\nAccount That Was Locked Out:\r\n\tSecurity ID:\t\tS-1-5-21-1382436746-3595243347-2784995946-1281\r\n\tAccount Name:\t\tadmin\r\n\r\nAdditional Information:\r\n\tCaller Computer Name:\tworkstation"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Event \"Microsoft-Windows-Security-Auditing\" is triggered",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    },
+    {
+        "uid":  "5a779976-fe29-4c32-8cdf-f5562f7fd56f",
+        "deviceId":  153,
+        "message":  "Disk Volume Free space for \u0027C:\u0027 is less than or equal to 5% from 2026-04-17T03:15:32Z to 2026-04-17T03:15:32Z",
+        "createTime":  1776395780.135934000,
+        "updateTime":  1776395780.135934000,
+        "sourceType":  "CONDITION_AGENT_DISK_FREE_SPACE",
+        "sourceConfigUid":  "189dd6ff-5f8f-4f2c-ad42-86104bd5927f",
+        "sourceName":  "",
+        "subject":  "C:",
+        "data":  {
+                     "message":  {
+                                     "code":  "agent_win_cond_disk_free_le",
+                                     "params":  {
+                                                    "volume":  "C:",
+                                                    "unit":  "%",
+                                                    "threshold":  "5",
+                                                    "start_date":  "2026-04-17T03:15:32Z",
+                                                    "end_date":  "2026-04-17T03:15:32Z"
+                                                }
+                                 }
+                 },
+        "priority":  "NONE",
+        "severity":  "NONE",
+        "conditionName":  "Disk Free Space is less than or equal to 5% for 15 minutes, start alerting after 10 minutes",
+        "conditionHealthStatus":  "NEEDS_ATTENTION",
+        "useGlobalHealthStatus":  true
+    }
+]

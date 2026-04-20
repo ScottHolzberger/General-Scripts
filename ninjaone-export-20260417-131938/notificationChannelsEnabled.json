@@ -1,0 +1,23 @@
+﻿[
+    {
+        "id":  1,
+        "name":  "HaloPSA",
+        "description":  "HaloPSA Alerting",
+        "enabled":  true,
+        "type":  "WEBHOOK"
+    },
+    {
+        "id":  2,
+        "name":  "Scott SMS",
+        "description":  "Scott SMS",
+        "enabled":  true,
+        "type":  "SMS"
+    },
+    {
+        "id":  3,
+        "name":  "Email",
+        "description":  "",
+        "enabled":  true,
+        "type":  "EMAIL"
+    }
+]

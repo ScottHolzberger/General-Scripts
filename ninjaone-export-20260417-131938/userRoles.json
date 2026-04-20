@@ -1,0 +1,23 @@
+﻿[
+    {
+        "id":  1,
+        "name":  "Client Admin",
+        "type":  "TECHNICIAN",
+        "description":  "",
+        "members":  null
+    },
+    {
+        "id":  3,
+        "name":  "Script Runner",
+        "type":  "TECHNICIAN",
+        "description":  "",
+        "members":  null
+    },
+    {
+        "id":  6,
+        "name":  "Remote Access",
+        "type":  "END_USER",
+        "description":  "",
+        "members":  null
+    }
+]

@@ -1,0 +1,94 @@
+﻿{
+    "createdAtUtc":  "2026-04-17 03:19:38 UTC",
+    "baseUrl":  "https://oc.ninjarmm.com",
+    "auth":  "oauth_client_credentials",
+    "scope":  "monitoring",
+    "sanitize":  true,
+    "files":  {
+                  "organizations":  {
+                                        "path":  "organizations.json",
+                                        "count":  21,
+                                        "seconds":  0.06
+                                    },
+                  "organizationsDetailed":  {
+                                                "path":  "organizationsDetailed.json",
+                                                "count":  21,
+                                                "seconds":  0.79
+                                            },
+                  "locations":  {
+                                    "path":  "locations.json",
+                                    "count":  25,
+                                    "seconds":  0.04
+                                },
+                  "devices":  {
+                                  "path":  "devices.json",
+                                  "count":  300,
+                                  "seconds":  0.96
+                              },
+                  "devicesDetailed":  {
+                                          "path":  "devicesDetailed.json",
+                                          "count":  300,
+                                          "seconds":  4.13
+                                      },
+                  "policies":  {
+                                   "path":  "policies.json",
+                                   "count":  55,
+                                   "seconds":  0.09
+                               },
+                  "alerts":  {
+                                 "path":  "alerts.json",
+                                 "count":  23,
+                                 "seconds":  0.16
+                             },
+                  "automationScripts":  {
+                                            "path":  "automationScripts.json",
+                                            "count":  170,
+                                            "seconds":  0.84
+                                        },
+                  "deviceCustomFields":  {
+                                             "path":  "deviceCustomFields.json",
+                                             "count":  31,
+                                             "seconds":  0.17
+                                         },
+                  "users":  {
+                                "path":  "users.json",
+                                "count":  6,
+                                "seconds":  0.04
+                            },
+                  "userRoles":  {
+                                    "path":  "userRoles.json",
+                                    "count":  3,
+                                    "seconds":  0.04
+                                },
+                  "notificationChannels":  {
+                                               "path":  "notificationChannels.json",
+                                               "count":  3,
+                                               "seconds":  0.02
+                                           },
+                  "notificationChannelsEnabled":  {
+                                                      "path":  "notificationChannelsEnabled.json",
+                                                      "count":  3,
+                                                      "seconds":  0.03
+                                                  },
+                  "groups":  {
+                                 "path":  "groups.json",
+                                 "count":  43,
+                                 "seconds":  0.12
+                             },
+                  "tasks":  {
+                                "path":  "tasks.json",
+                                "count":  3,
+                                "seconds":  0.03
+                            }
+              },
+    "warnings":  [
+
+                 ],
+    "patch":  {
+                  "includeDeviceOsPatches":  false,
+                  "includeDeviceOsPatchInstalls":  false,
+                  "includeHeavyOsPatchInstalls":  false,
+                  "patchHistoryDays":  30,
+                  "heavyMaxPages":  10
+              }
+}
